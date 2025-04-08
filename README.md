@@ -13,6 +13,7 @@ This project compares different graph coloring strategies by evaluating their ef
 - 🧪 **Brute Force (Full)** – (Optional showcase only)
 
 ## 📁 Project Structure
+```bash
 GraphColoringSolver/ 
 │ ├── codes/ 
 │ ├── write_graphs.py # Visualization and graph drawing 
@@ -25,7 +26,7 @@ GraphColoringSolver/
 │ └── data_v15_random.json # Output of randomized algorithm 
 │ └── data_v15_genetic.json # Output of genetic algorithm 
 │ └── main.py # Runner script for all algorithms
-
+```
 
 ## ⚙️ How to Run
 
@@ -35,3 +36,11 @@ GraphColoringSolver/
 - Install required packages:
 ```bash
 pip install matplotlib
+```
+
+## Output Example
+```bash
+Greedy Solution
+Solution: {'ChromaticNum': 4, 'Coloring': {'0': 0, '1': 1, ...}}
+Time: 0.0021s
+```
