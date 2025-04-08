@@ -38,9 +38,22 @@ GraphColoringSolver/
 pip install matplotlib
 ```
 
+## 🧬 Genetic Algorithm Parameters
+The genetic algorithm can be configured directly in main.py. Default values:
+
+```bash
+population = 2
+generations = 100
+mutation = 0.1
+```
+These can be adjusted to explore different optimization behaviors.
+
 ## Output Example
 ```bash
 Greedy Solution
 Solution: {'ChromaticNum': 4, 'Coloring': {'0': 0, '1': 1, ...}}
 Time: 0.0021s
 ```
+Each algorithm provides:
+- ChromaticNum: number of colors used
+- Coloring: a dictionary mapping each node to a color
